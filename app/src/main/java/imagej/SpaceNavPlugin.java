@@ -10,7 +10,7 @@ import imagej.ui.UIService;
 import org.scijava.plugin.Parameter;
 import org.scijava.plugin.Plugin;
 
-@Plugin(type = Command.class, menuPath = 'Help>SpaceNavigator Support')
+@Plugin(type = Command.class, menuPath = "Help>SpaceNavigator Support")
 public class SpaceNavPlugin {
     
     @Parameter
