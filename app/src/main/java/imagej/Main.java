@@ -1,4 +1,7 @@
-/*
+/* Project updated August 2013 by ISU Students Justin Hanley, Daniel Greg Tyler,
+ * and Josh Newell for the purpose of the NE 4499 course.  The alternate interface
+ * titled Volume Viewer will allow the user to rotate 3-D images on the x, y, and
+ * z axises.
  * #%L
  * ImageJ software for multidimensional image processing and analysis.
  * %%

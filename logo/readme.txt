@@ -9,7 +9,7 @@ and reworked into cartoon form by Adam Fraser.
 
 microscope.jpg  - Original photograph of microscope.
 imagej.psd      - Full-size cartoon icon, with all layers.
-imagej.png      - Full-size flattened icon, with transparency.
+imagej.png      - Full-size flattened icon, with transparency. ISU Bengal logo.
 imagej-*.png    - Icon scaled to various sizes, with transparency.
 ImageJ.icns     - Mac OS X multi-resolution icon.
 ImageJ.ico      - Windows multi-resolution icon.
