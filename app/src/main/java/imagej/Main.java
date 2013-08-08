@@ -34,6 +34,7 @@
  */
 
 package imagej;
+import imagej.SpaceNavPlugin;
 
 /**
  * Launches ImageJ.
@@ -60,6 +61,7 @@ public final class Main {
 
 		// display the user interface
 		ij.ui().showUI();
+                ij.command().run(SpaceNavPlugin.class);
 
 		return ij;
 	}
