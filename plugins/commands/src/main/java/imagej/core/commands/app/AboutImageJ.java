@@ -91,12 +91,12 @@ import org.scijava.util.Manifest;
  * 
  * @author Barry DeZonia
  */
-@Plugin(type = Command.class, label = "About ImageJ...",
+@Plugin(type = Command.class, label = "About ISU Dicom Viewer...",
 	iconPath = "/icons/commands/information.png", menu = {
 		@Menu(label = MenuConstants.HELP_LABEL,
 			weight = MenuConstants.HELP_WEIGHT,
 			mnemonic = MenuConstants.HELP_MNEMONIC),
-		@Menu(label = "About ImageJ...", weight = 43) }, headless = true)
+		@Menu(label = "About ISU Dicom Viewer......", weight = 43) }, headless = true)
 public class AboutImageJ extends ContextCommand {
 
 	// -- constants --
@@ -139,7 +139,7 @@ public class AboutImageJ extends ContextCommand {
 	public void run() {
 		final Dataset dataset = createDataset();
 		drawTextOverImage(dataset);
-		final String title = getApp().getTitle();
+		final String title = "ISU DICOM VIEWER";
 		display = dispSrv.createDisplay("About " + title, dataset);
 	}
 
