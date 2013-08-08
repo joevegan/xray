@@ -53,6 +53,7 @@ import imagej.display.DisplayService;
 import imagej.io.IOService;
 import imagej.io.RecentFileService;
 import imagej.legacy.LegacyService;
+//import SpaceNavPlugin;
 import imagej.menu.MenuService;
 import imagej.module.ModuleService;
 import imagej.options.OptionsService;
@@ -160,7 +161,11 @@ public class ImageJ extends AbstractGateway {
 	public AnimationService animation() {
 		return get(AnimationService.class);
 	}
-
+        /*
+        public SpaceNavPlugin spaceNavPlugin() {
+                return get(SpaceNavPlugin.class);
+        }
+*/
 	public AppService app() {
 		return get(AppService.class);
 	}
