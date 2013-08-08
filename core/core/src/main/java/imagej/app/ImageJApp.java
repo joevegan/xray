@@ -48,7 +48,7 @@ import org.scijava.plugin.Plugin;
 @Plugin(type = App.class, name = ImageJApp.NAME)
 public class ImageJApp extends AbstractApp {
 
-	public static final String NAME = "ImageJ";
+	public static final String NAME = "ISU's Dicom Stack Viewer";
 
 	@Override
 	public String getTitle() {
