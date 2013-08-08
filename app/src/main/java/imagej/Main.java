@@ -38,7 +38,7 @@
 
 
 package imagej;
-
+ 
 /**
  * Launches ImageJ.
  * 
@@ -64,7 +64,7 @@ public final class Main {
 
 		// display the user interface
 		ij.ui().showUI();
-                
+                ij.command().run(Volume_Viewer.class);
                 //ij.command().run(SpaceNavPlugin.class);
 
 		return ij;
