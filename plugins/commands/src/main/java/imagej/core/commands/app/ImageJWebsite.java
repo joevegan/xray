@@ -57,7 +57,7 @@ import org.scijava.plugin.Plugin;
 		@Menu(label = MenuConstants.HELP_LABEL,
 			weight = MenuConstants.HELP_WEIGHT,
 			mnemonic = MenuConstants.HELP_MNEMONIC),
-		@Menu(label = "ImageJ Website...", weight = 42) }, headless = true)
+		@Menu(label = "ISU Website...", weight = 42) }, headless = true)
 public class ImageJWebsite implements Command {
 
 	@Parameter
@@ -66,7 +66,7 @@ public class ImageJWebsite implements Command {
 	@Parameter
 	private PlatformService platformService;
 
-	public final static String url = "http://developer.imagej.net";
+	public final static String url = "http://www.isu.edu";
 
 	@Override
 	public void run() {
